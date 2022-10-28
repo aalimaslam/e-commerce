@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+.theme-bg{
+    background-color:#E74C3C !important;
+    color:white !important;
+}
+.theme-stroke{
+    border:1px solid #E74C3C !important;
+}
+.theme-text{
+    color:#E74C3C !important;
+}
+.theme-bg-light{
+    background: #FDDBD8 !important ;
+}
+.theme-shadow{
+    box-shadow: 5px 10px 24px rgba(231, 76, 60,0.4) !important;
+}
+
+li{
+    list-style: none;
+}
+.vertical-logo{
+    writing-mode: vertical-lr;
+}
+.card{
+    border-radius: 12px !important;
+    transition:all .3s;
+    border:none;
+}
+.card:hover{
+    box-shadow: 10px 10px 25px rgba(0,0,0,0.1);
+}
+.quantity-controls{
+    cursor: pointer;   
+}
+.shadow-on-hover:hover{
+    filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.3));
+}
+.active{
+    background:white;
+}
