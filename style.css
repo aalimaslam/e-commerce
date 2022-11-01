@@ -42,3 +42,9 @@ li{
 .active{
     background:white;
 }
+input::placeholder{
+    color:rgb(42, 42, 42) !important;
+}
+input:focus{
+    outline:none !important;
+}
