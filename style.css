@@ -48,3 +48,15 @@ input::placeholder{
 input:focus{
     outline:none !important;
 }
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.3), transparent);
+    z-index:1;
+}
+.carousel-caption{
+    z-index:22;
+}
